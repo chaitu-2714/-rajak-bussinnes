@@ -1,0 +1,8 @@
+BizPilot AI — End User License
+
+Copyright (c) 2026 BizPilot AI. All rights reserved.
+
+This software is provided for evaluation and internal business use. It is
+supplied without warranty of any kind. Back up your business data before
+upgrading. The publisher makes no claim of regulatory compliance or security
+certification for this build.

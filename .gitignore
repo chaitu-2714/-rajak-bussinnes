@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.local
+
+# Never commit a real database, backups or logs
+*.db
+*.db-wal
+*.db-shm
+storage/logs/
+storage/backups/
+storage/exports/
+bizpilot_ai.db
+
+# Build output
+build/
+dist/
+*.spec.bak
+deployment/installer/Output/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

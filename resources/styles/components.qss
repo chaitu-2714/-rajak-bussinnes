@@ -1,0 +1,250 @@
+/* BizPilot AI - component level styles
+   Loaded after light_theme.qss. */
+
+QFrame#StatCard {
+    background-color: #FFFFFF;
+    border: 1px solid #E6EAF0;
+    border-radius: 12px;
+}
+
+QFrame#StatCard[available="false"] {
+    background-color: #FBFCFE;
+    border: 1px solid #E9EDF3;
+}
+
+QLabel#StatValue {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F172A;
+}
+
+QLabel#StatValue[available="false"] {
+    font-size: 20px;
+    color: #A3B0C2;
+}
+
+QLabel#StatTitle {
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748B;
+}
+
+QLabel#StatCaption {
+    font-size: 11px;
+    color: #94A3B8;
+}
+
+QLabel#StatCaption[available="false"] {
+    color: #B4BFCC;
+}
+
+QFrame#ActivityRow {
+    background-color: transparent;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+QLabel#ActivityAction {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+QLabel#ActivityMeta {
+    font-size: 11px;
+    color: #8A97A8;
+}
+
+QLabel#StatusDot {
+    font-size: 14px;
+}
+
+QFrame#StatusRow {
+    background-color: transparent;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+QLabel#StatusKey {
+    font-size: 12px;
+    color: #64748B;
+}
+
+QLabel#StatusValue {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+QLabel#StatusValue[ok="true"] {
+    color: #15803D;
+}
+
+QLabel#StatusValue[ok="false"] {
+    color: #B91C1C;
+}
+
+QFrame#ChartCard {
+    background-color: #FFFFFF;
+    border: 1px solid #E6EAF0;
+    border-radius: 12px;
+}
+
+QLabel#ChartTitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1F2937;
+}
+
+QLabel#ChartEmpty {
+    font-size: 12px;
+    color: #9AA6B6;
+}
+
+QFrame#ComingSoonIcon {
+    background-color: #EFF4FF;
+    border: 1px solid #D5E3FD;
+    border-radius: 22px;
+}
+
+QLabel#ComingSoonGlyph {
+    color: #2563EB;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+QFrame#DetailPanel {
+    background-color: #FFFFFF;
+    border: 1px solid #E6EAF0;
+    border-radius: 12px;
+}
+
+QFrame#DetailPanel QListWidget {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+QLabel#Badge {
+    background-color: #F1F5F9;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    color: #475569;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+}
+
+QLabel#BadgeSystem {
+    background-color: #EFF4FF;
+    border: 1px solid #D5E3FD;
+    border-radius: 8px;
+    color: #1D4ED8;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+}
+
+QLabel#BadgeSuccess {
+    background-color: #ECFDF3;
+    border: 1px solid #BBF7D0;
+    border-radius: 8px;
+    color: #15803D;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+}
+
+QLabel#BadgeDanger {
+    background-color: #FEF2F2;
+    border: 1px solid #FECACA;
+    border-radius: 8px;
+    color: #B91C1C;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+}
+
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+
+QScrollArea > QWidget > QWidget {
+    background-color: transparent;
+}
+
+QTreeWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #E6EAF0;
+    border-radius: 10px;
+    outline: none;
+}
+
+QTreeWidget::item {
+    padding: 4px 2px;
+    min-height: 22px;
+}
+
+QTreeWidget::item:selected {
+    background-color: #E8F0FE;
+    color: #1E3A8A;
+}
+
+/* ---------- AI Command Center ---------- */
+QFrame#ChatBubbleUser {
+    background-color: #E8F0FE;
+    border: 1px solid #D3E1FB;
+    border-radius: 12px;
+}
+
+QFrame#ChatBubbleAssistant {
+    background-color: #FFFFFF;
+    border: 1px solid #E6EAF0;
+    border-radius: 12px;
+}
+
+QLabel#ChatText {
+    font-size: 13px;
+    color: #1F2937;
+}
+
+QFrame#ChatHeader {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E6EAF0;
+}
+
+QFrame#ChatInputRow {
+    background-color: #FFFFFF;
+    border-top: 1px solid #E6EAF0;
+}
+
+QScrollArea#ChatScroll {
+    background-color: #F8FAFC;
+    border: none;
+}
+
+QListWidget#PlainList {
+    background-color: #FFFFFF;
+    border: 1px solid #E6EAF0;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+QListWidget#PlainList::item {
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+
+QListWidget#PlainList::item:selected {
+    background-color: #E8F0FE;
+    color: #1D4ED8;
+}
+
+QProgressBar {
+    background-color: #EEF2F7;
+    border: none;
+    border-radius: 2px;
+}
+
+QProgressBar::chunk {
+    background-color: #2563EB;
+    border-radius: 2px;
+}
